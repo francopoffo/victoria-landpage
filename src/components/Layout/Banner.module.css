@@ -2,17 +2,14 @@
   margin: 0;
   height: 40rem;
   position: relative;
-}
-
-.banner img {
-  width: 100%;
-  height: 35rem;
-  z-index: 1;
+  background: url("../../../public/desktop-banner.png");
+  background-repeat: no-repeat;
+  background-size: 100vw;
 }
 
 .conteudo {
   position: absolute;
-  color: #fdfdfd;
+  color: white;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -22,22 +19,35 @@
   font-size: 3rem;
   width: auto;
   text-align: center;
-  margin-bottom: 4rem;
+  margin-bottom: 5rem;
 }
 
 .contato {
-    text-align: center;
-    font-size: 1.25rem;
-    margin-right: 30px;
+  text-align: center;
+  font-size: 1.5rem;
 }
 
 .botao {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 .svg {
   position: fixed;
-  bottom: 7px;
-  right: 17rem;
+  bottom: -70px;
+}
+
+@media screen and (max-width: 600px) {
+  .banner {
+    background: url("../../../public/mobile-banner.png");
+    background-repeat: no-repeat;
+  }
+
+  .conteudo {
+    top: 40%;
+  }
+
+  .titulo {
+    margin-bottom: 2rem;
+  }
 }

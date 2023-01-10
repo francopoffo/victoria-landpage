@@ -4,11 +4,11 @@ import classes from "./Banner.module.css";
 function Banner() {
   return (
     <div className={classes.banner}>
-      <img src="https://img.freepik.com/fotos-premium/estante-de-lei-baixa-chave-filtro-com-martelo-do-juiz-de-madeira-e-escala-de-ouro-renderizacao-em-3d_34259-444.jpg?w=1380"></img>
+      
       <div className={classes.conteudo}>
-        <div className={classes.titulo}>
+        <h1 className={classes.titulo}>
           ADVOGADA ESPECIALIZADA EM CASOS CRIMINAIS
-        </div>
+        </h1>
         <div>
           <a className={classes.botao}
             href="https://api.whatsapp.com/send?phone=5547999230603&text=Vim pelo site."
