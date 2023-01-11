@@ -10,6 +10,9 @@ function MainHeader() {
       <nav className={classes.navigation}>
         <ul>
           <li>
+            <Link href="/">Home</Link>
+          </li>
+          <li>
             <Link href="/sobre">Sobre</Link>
           </li>
           <li>

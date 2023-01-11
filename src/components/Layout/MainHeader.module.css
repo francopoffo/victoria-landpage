@@ -1,9 +1,8 @@
 .header {
   width: 100%;
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  padding: 1rem 4rem;
-  height: 5rem;
   background-color: #faebd7;
   -webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
   -moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
@@ -11,36 +10,36 @@
 }
 
 .logo {
-  display: flex;
-  align-items: center;
+  font-style: sans-serif;
   font-size: 2.25rem;
-  height: 100%;
-  width: 25%;
   color: #202020;
+  margin: 0.5rem;
+  margin-left: 2rem;
 }
 
 .navigation {
+  font-family: 'Open Sans', sans-serif;
   font-size: 1.15rem;
+  text-transform: uppercase;
   color: #202020;
-  width: 75%;
+  margin-right: 4rem;
 }
 
 .navigation ul {
   list-style-type: none;
   display: flex;
-  flex-direction: row;
   justify-content: flex-end;
-  padding-top: 0.15rem;
-  padding-right: 4rem;
-  gap: 3rem;
 }
 
 .navigation li {
-  font-size: 1.4rem
+  font-size: 1.4rem;
+  height: 100%;
+  padding: 1rem;
+  display: block;
 }
 
 .navigation li:hover {
-  font-size: 1.5rem;
+  background-color: #c5b8a7;
   cursor: pointer;
 }
 
@@ -48,30 +47,21 @@
   .header {
     flex-direction: column;
     align-items: center;
-    padding: 0;
     justify-content: space-between;
-    height: 7rem;
   }
 
   .logo {
-    width: 100%;
-    height: 70%;
     font-size: 2.5rem;
-    margin-bottom: 1rem;
+    margin: 0;
+    margin: 1rem auto;
     justify-content: center;
-                
   }
 
   .navigation {
-    width: 100%;
-    height: 30%;
+    width: auto;
+    margin: 0;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
   }
-
-  .navigation ul {
-    padding: 0;
-    padding-bottom: 1rem;
- }
 }

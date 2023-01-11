@@ -1,7 +1,9 @@
+import Reviews from "../src/components/Reviews/Reviews";
+
 export default function Home() {
   return (
     <>
-      <h1>Home</h1>
+      <Reviews />
     </>
   );
 }

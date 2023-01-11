@@ -1,0 +1,43 @@
+.reviews {
+  background-color: #faebd7;
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "Open Sans", sans-serif;
+}
+
+.card {
+  list-style-type: none;
+  background-color: #FDFDFD;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 400px;
+  height: 250px;
+  text-align: center;
+}
+
+.review {
+  height: 100%;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.review img {
+  margin: 0 auto;
+  height: 50%;
+}
+
+.review h2 {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 1.3rem;
+}
+
+.review h3 {
+  padding: 1rem;
+}
+
+

@@ -4,17 +4,23 @@ import classes from "./Banner.module.css";
 function Banner() {
   return (
     <div className={classes.banner}>
-      
       <div className={classes.conteudo}>
         <h1 className={classes.titulo}>
           ADVOGADA ESPECIALIZADA EM CASOS CRIMINAIS
         </h1>
         <div>
-          <a className={classes.botao}
+          <a
+            href="https://api.whatsapp.com/send?phone=5547999230603&text=Vim pelo site."
+            target="_blank"
+            className={classes.contato}
+          >
+            Fale agora com uma especialista
+          </a>
+          <a
+            className={classes.botao}
             href="https://api.whatsapp.com/send?phone=5547999230603&text=Vim pelo site."
             target="_blank"
           >
-            <p className={classes.contato}>Fale agora com uma especialista</p>
             <svg
               width="55"
               height="55"

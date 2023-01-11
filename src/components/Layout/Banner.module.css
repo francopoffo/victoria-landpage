@@ -2,14 +2,14 @@
   margin: 0;
   height: 40rem;
   position: relative;
-  background: url("../../../public/desktop-banner.png");
+  background: url("../../img/desktop-banner.png");
   background-repeat: no-repeat;
   background-size: 100vw;
 }
 
 .conteudo {
   position: absolute;
-  color: white;
+  color: #FDFDFD;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -23,8 +23,22 @@
 }
 
 .contato {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 450px;
+  background-color: #25d366;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
   text-align: center;
   font-size: 1.5rem;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.8);
+}
+
+.contato:hover {
+  background-color: #36a860;
 }
 
 .botao {
@@ -39,12 +53,16 @@
 
 @media screen and (max-width: 600px) {
   .banner {
-    background: url("../../../public/mobile-banner.png");
+    background: url("../../img/mobile-banner.png");
     background-repeat: no-repeat;
   }
 
   .conteudo {
     top: 40%;
+  }
+
+  .contato {
+    width: 275px;
   }
 
   .titulo {
