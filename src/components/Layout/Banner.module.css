@@ -2,7 +2,7 @@
   margin: 0;
   height: 40rem;
   position: relative;
-  background: url("../../img/desktop-banner.png");
+  background: url("../../img/pexels-sora-shimazaki-5668481.jpg");
   background-repeat: no-repeat;
   background-size: 100vw;
 }
@@ -26,6 +26,7 @@
   font-family: "Open Sans", sans-serif;
   display: flex;
   justify-content: center;
+  align-items: center;
   margin: 0 auto;
   width: 450px;
   background-color: #25d366;
@@ -37,23 +38,21 @@
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.8);
 }
 
+.contato img {
+  margin-left: 0.75rem;
+  width: 35px;
+  height: 35px;
+}
+
 .contato:hover {
   background-color: #36a860;
 }
 
-.botao {
-  display: flex;
-  justify-content: space-around;
-}
 
-.svg {
-  position: fixed;
-  bottom: -70px;
-}
 
 @media screen and (max-width: 600px) {
   .banner {
-    background: url("../../img/mobile-banner.png");
+    background: url("../../img/pexels-sora-shimazaki-5668481.jpg");
     background-repeat: no-repeat;
   }
 

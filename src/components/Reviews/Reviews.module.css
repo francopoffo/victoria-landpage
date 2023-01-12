@@ -1,5 +1,24 @@
+.avaliacoes {
+  background: rgb(144, 144, 144);
+  background: linear-gradient(
+    0deg,
+    rgba(192, 192, 192, 1) 21%,
+    rgba(144, 144, 144, 1) 55%
+  );
+}
+
+.avaliacoes h2 {
+  color: #252525;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  padding-top: 2rem;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+
 .reviews {
-  background-color: #faebd7;
   display: flex;
   justify-content: space-evenly;
   font-family: "Open Sans", sans-serif;
@@ -7,7 +26,7 @@
 
 .card {
   list-style-type: none;
-  background-color: #FDFDFD;
+  background-color: #fdfdfd;
   margin: 1rem;
   padding: 1rem;
   border-radius: 10px;
@@ -30,14 +49,46 @@
   height: 50%;
 }
 
-.review h2 {
+.review h3 {
   font-weight: bold;
   margin-bottom: 10px;
   font-size: 1.3rem;
 }
 
-.review h3 {
+.review h4 {
   padding: 1rem;
 }
 
+.botaoreviews {
+  height: 8rem;
+}
 
+.botao {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 2rem;
+  width: 480px;
+  background-color: #60727a;
+  color: #FDFDFD;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  font-size: 1.5rem;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.8);
+}
+
+.botao img {
+  width: 35px;
+  height: 35px;
+  margin-left: 0.75rem;
+  
+}
+
+.botao:hover {
+  background-color: #4e626b;
+  cursor: pointer;
+}

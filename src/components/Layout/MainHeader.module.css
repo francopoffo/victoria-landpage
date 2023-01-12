@@ -3,10 +3,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #faebd7;
-  -webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
-  -moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
-  box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+  background: rgb(144, 144, 144);
+  background: linear-gradient(
+    0deg,
+    rgba(144, 144, 144, 1) 21%,
+    rgba(192, 192, 192, 1) 55%
+  );
 }
 
 .logo {
@@ -18,7 +20,7 @@
 }
 
 .navigation {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 1.15rem;
   text-transform: uppercase;
   color: #202020;
@@ -39,7 +41,7 @@
 }
 
 .navigation li:hover {
-  background-color: #c5b8a7;
+  background-color:  rgb(116, 114, 114);
   cursor: pointer;
 }
 
