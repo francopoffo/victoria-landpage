@@ -2,7 +2,7 @@
   margin: 0;
   height: 40rem;
   position: relative;
-  background: url("../../img/pexels-sora-shimazaki-5668481.jpg");
+  background: url("../../img/banner.jpg");
   background-repeat: no-repeat;
   background-size: 100vw;
 }
@@ -52,7 +52,7 @@
 
 @media screen and (max-width: 600px) {
   .banner {
-    background: url("../../img/pexels-sora-shimazaki-5668481.jpg");
+    background: url("../../img/banner.jpg");
     background-repeat: no-repeat;
   }
 

@@ -5,9 +5,13 @@ function Review(props) {
   return (
     <li className={classes.card}>
       <article className={classes.review}>
-        <img src="public\five-star.png" />
-        <h2>{props.name}</h2>
-        <h3>{props.review}</h3>
+        <img
+          src={
+            "https://raw.githubusercontent.com/francopoffo/image-files/main/five-star.png"
+          }
+        />
+        <h3>{props.nome}</h3>
+        <h4>{props.avaliacao}</h4>
       </article>
     </li>
   );

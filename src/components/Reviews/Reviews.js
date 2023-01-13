@@ -1,8 +1,40 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import Review from "./Review";
 
 import classes from "./Reviews.module.css";
 
-function Reviews(props) {
+function Reviews() {
+  const [dados, setDados] = useState();
+  const [dataLoaded, setDataLoaded] = useState(false);
+
+  useEffect(() => {
+    const FetchData = async () => {
+      const dados = await fetch(
+        "https://victoria-landpage-default-rtdb.firebaseio.com/reviews.json"
+      );
+      const dadosConvertidos = await dados.json();
+      console.log(dadosConvertidos);
+
+      const AVALIACOES = [];
+
+      for (const key in dadosConvertidos) {
+        AVALIACOES.push({
+          id: key,
+          nome: dadosConvertidos[key].nome,
+          avaliacao: dadosConvertidos[key].avaliacao,
+        });
+
+        console.log(AVALIACOES);
+
+        setDados(AVALIACOES);
+        setDataLoaded(true);
+      }
+    };
+    FetchData();
+  }, []);
+
+  console.log(dados);
+
   return (
     <section className={classes.avaliacoes}>
       <div>
@@ -11,54 +43,14 @@ function Reviews(props) {
         </h2>
       </div>
       <ul className={classes.reviews}>
-        <li className={classes.card}>
-          <article className={classes.review}>
-            <img
-              src={
-                "https://raw.githubusercontent.com/francopoffo/image-files/main/five-star.png"
-              }
+        {dataLoaded &&
+          dados.map((review) => (
+            <Review
+              key={review.id}
+              nome={review.nome}
+              avaliacao={review.avaliacao}
             />
-            <h3>Franco Poffo</h3>
-            <h4>Ótima profissional, sempre prestativa e ágil no trabalho!</h4>
-          </article>
-        </li>
-        <li className={classes.card}>
-          <article className={classes.review}>
-            <img
-              src={
-                "https://raw.githubusercontent.com/francopoffo/image-files/main/five-star.png"
-              }
-            />
-            <h3>Isadora Poleza</h3>
-            <h4>Muito atenciosa e prestativa! Recomendo a todos.</h4>
-          </article>
-        </li>
-        <li className={classes.card}>
-          <article className={classes.review}>
-            <img
-              src={
-                "https://raw.githubusercontent.com/francopoffo/image-files/main/five-star.png"
-              }
-            />
-            <h3>Leticia Lopes</h3>
-            <h4>
-              Eu gostaria de parabenizar a Dra. Victoria Werner pelo excelente
-              trabalho e dedicação. Sempre muito atenciosamente e prática.
-              Indicarei sempre!!
-            </h4>
-          </article>
-        </li>
-        <li className={classes.card}>
-          <article className={classes.review}>
-            <img
-              src={
-                "https://raw.githubusercontent.com/francopoffo/image-files/main/five-star.png"
-              }
-            />
-            <h3>Bruna Rosa</h3>
-            <h4>Profissional de excelência.</h4>
-          </article>
-        </li>
+          ))}
       </ul>
       <div className={classes.botaoreviews}>
         <a
