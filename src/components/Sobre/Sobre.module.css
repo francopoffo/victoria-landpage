@@ -1,0 +1,22 @@
+.sobre {
+  background: rgb(144, 144, 144);
+  background: linear-gradient(
+    0deg,
+    rgba(192, 192, 192, 1) 21%,
+    rgba(144, 144, 144, 1) 55%
+  );
+  height: 340px;
+}
+
+.sobre h2 {
+  font-size: 3em;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.sobre p {
+  font-size: 2rem;
+  text-align: justify;
+  margin: 0 30rem;
+}

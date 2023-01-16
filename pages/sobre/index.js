@@ -1,9 +1,10 @@
 import React from "react";
+import Sobre from "../../src/components/Sobre/Sobre";
 
 function index() {
   return (
     <>
-      <h1>Sobre</h1>
+      <Sobre />
     </>
   );
 }
