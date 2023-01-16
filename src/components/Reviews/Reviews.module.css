@@ -56,3 +56,45 @@
   background-color: #4e626b;
   cursor: pointer;
 }
+
+@media screen and (max-width: 600px) {
+  .avaliacoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .avaliacoes h2 {
+    color: #252525;
+    text-align: center;
+    width: 80%;
+    margin-bottom: 1.1rem;
+    padding-top: 2rem;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+  }
+
+  .reviews {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .botao {
+    width: 80%;
+  }
+
+  .botao img {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .reviews {
+    flex-wrap: wrap;
+  }
+
+  .avaliacoes h2 {
+    width: 80%;
+  }
+}
