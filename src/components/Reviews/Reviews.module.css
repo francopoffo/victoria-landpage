@@ -57,6 +57,16 @@
   cursor: pointer;
 }
 
+@media screen and (max-width: 850px) {
+  .reviews {
+    flex-wrap: wrap;
+  }
+
+  .avaliacoes h2 {
+    width: 80%;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .avaliacoes {
     display: flex;
@@ -86,15 +96,5 @@
 
   .botao img {
     margin-left: 0;
-  }
-}
-
-@media screen and (max-width: 850px) {
-  .reviews {
-    flex-wrap: wrap;
-  }
-
-  .avaliacoes h2 {
-    width: 80%;
   }
 }

@@ -49,6 +49,24 @@
   background-color: #36a860;
 }
 
+@media screen and (max-width: 850px) {
+  .banner {
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 28rem;
+  }
+
+  .conteudo {
+    top: 40%;
+    margin-top: 2.5rem;
+  }
+
+  .titulo {
+    margin-bottom: 2rem;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .banner {
     background-size: cover;
@@ -64,24 +82,6 @@
 
   .contato {
     width: 275px;
-  }
-
-  .titulo {
-    margin-bottom: 2rem;
-  }
-}
-
-@media screen and (max-width: 850px) {
-  .banner {
-    background-size: cover;
-    background-position: center;
-    width: 100vw;
-    height: 28rem;
-  }
-
-  .conteudo {
-    top: 40%;
-    margin-top: 2.5rem;
   }
 
   .titulo {
