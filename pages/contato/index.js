@@ -1,9 +1,10 @@
 import React from "react";
+import Contato from "../../src/components/Contato/Contato";
 
 function index() {
   return (
     <>
-      <h1>Contato</h1>
+      <Contato />
     </>
   );
 }
