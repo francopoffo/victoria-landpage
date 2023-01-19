@@ -16,6 +16,7 @@
   font-size: 2rem;
   text-align: justify;
   margin: 0 20rem;
+  padding-bottom: 2rem;
 }
 
 @media screen and (max-width: 850px) {
@@ -24,8 +25,5 @@
     width: fit-content;
     text-align: center;
     margin: 0 2rem;
-    padding-bottom: 2rem;
   }
 }
-
-
