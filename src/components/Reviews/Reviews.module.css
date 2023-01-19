@@ -1,14 +1,11 @@
 .avaliacoes {
-  background: rgb(144, 144, 144);
-  background: linear-gradient(
-    0deg,
-    rgba(192, 192, 192, 1) 21%,
-    rgba(144, 144, 144, 1) 55%
-  );
+  background: var(--grayish-blue);
+  opacity: 0.8;
+  color: var(--very-dark-blue);
 }
 
 .avaliacoes h2 {
-  color: #252525;
+  font-style: sans-serif;
   text-align: center;
   width: 50%;
   margin: 0 auto;
@@ -19,9 +16,10 @@
 }
 
 .reviews {
+  font-family: "Inter", sans-serif;
   display: flex;
   justify-content: space-evenly;
-  font-family: "Open Sans", sans-serif;
+  padding-bottom: 2rem;
 }
 
 .botaoreviews {
@@ -29,21 +27,20 @@
 }
 
 .botao {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Inter", sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  margin-top: 2rem;
-  width: 480px;
-  background-color: #60727a;
-  color: #fdfdfd;
+  width: fit-content;
+  background-color: var(--very-dark-blue);
+  color: var(--off-white);
   border: none;
   border-radius: 5px;
-  padding: 10px;
+  padding: 15px;
   text-align: center;
-  font-size: 1.5rem;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.8);
+  font-size: 1.15rem;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.6);
 }
 
 .botao img {
@@ -53,7 +50,7 @@
 }
 
 .botao:hover {
-  background-color: #4e626b;
+  background-color: var(--dark-grayish-blue);
   cursor: pointer;
 }
 
@@ -76,7 +73,6 @@
   }
 
   .avaliacoes h2 {
-    color: #252525;
     text-align: center;
     width: 80%;
     margin-bottom: 1.1rem;
@@ -88,13 +84,5 @@
   .reviews {
     flex-direction: column;
     align-items: center;
-  }
-
-  .botao {
-    width: 80%;
-  }
-
-  .botao img {
-    margin-left: 0;
   }
 }

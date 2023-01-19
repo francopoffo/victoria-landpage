@@ -3,27 +3,20 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: rgb(144, 144, 144);
-  background: linear-gradient(
-    0deg,
-    rgba(144, 144, 144, 1) 21%,
-    rgba(192, 192, 192, 1) 55%
-  );
+  background: var(--very-dark-blue);
+  color: var(--off-white);
 }
 
 .logo {
   font-style: sans-serif;
   font-size: 2.25rem;
-  color: #202020;
   margin: 0.5rem;
   margin-left: 2rem;
 }
 
 .navigation {
-  font-family: "Open Sans", sans-serif;
-  font-size: 1.15rem;
+  font-family: "Inter", sans-serif;
   text-transform: uppercase;
-  color: #202020;
   margin-right: 4rem;
 }
 
@@ -34,14 +27,13 @@
 }
 
 .navigation li {
-  font-size: 1.4rem;
-  height: 100%;
   padding: 1rem;
   display: block;
+  border-radius: 5px;
 }
 
 .navigation li:hover {
-  background-color: rgb(116, 114, 114);
+  background-color: var(--dark-grayish-blue);
   cursor: pointer;
 }
 

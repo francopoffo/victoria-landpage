@@ -1,6 +1,6 @@
 .card {
   list-style-type: none;
-  background-color: #fdfdfd;
+  background-color: var(--off-white);
   margin: 1rem;
   padding: 1rem;
   border-radius: 10px;
@@ -12,7 +12,7 @@
 
 .review {
   height: 100%;
-  color: black;
+  color: var(--very-dark-blue);
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -42,7 +42,27 @@
 
 @media screen and (max-width: 600px) {
   .card {
-    width: 80%;
+    margin: 0;
+    width: 85%;
+    height: 180px;
     margin-bottom: 0.5rem;
+  }
+
+  .review {
+    justify-content: center;
+  }
+
+  .review img {
+    margin: 0 auto;
+    height: 45%;
+  }
+
+  .review h3 {
+    font-weight: bold;
+    font-size: 1.15rem;
+  }
+
+  .review h4 {
+    font-size: 0.9rem;
   }
 }

@@ -1,10 +1,26 @@
 .footer {
+  font-family: "Inter", sans-serif;
   display: flex;
   text-align: center;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   margin-top: auto;
-  background-color: rgba(144, 144, 144, 1);
+  background-color: var(--very-dark-blue);
+  color: var(--off-white);
   height: 4rem;
-  border-top: solid 0.5px black;
+  border-top: solid 0.5px var(--off-white);
+}
+
+.footer a:hover{
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 850px) {
+  .footer{ 
+    padding: 1rem 0;
+    flex-direction: column;
+    height: fit-content;
+    gap: 1.5rem;
+  }
+
 }

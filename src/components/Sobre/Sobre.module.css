@@ -1,11 +1,8 @@
 .sobre {
-  background: rgb(144, 144, 144);
-  background: linear-gradient(
-    0deg,
-    rgba(192, 192, 192, 1) 21%,
-    rgba(144, 144, 144, 1) 55%
-  );
-  height: 340px;
+  background: var(--grayish-blue);
+  opacity: 0.8;
+  color: var(--very-dark-blue);
+  height: fit-content;
 }
 
 .sobre h2 {
@@ -18,5 +15,17 @@
 .sobre p {
   font-size: 2rem;
   text-align: justify;
-  margin: 0 30rem;
+  margin: 0 20rem;
 }
+
+@media screen and (max-width: 850px) {
+  .sobre p {
+    font-size: 2rem;
+    width: fit-content;
+    text-align: center;
+    margin: 0 2rem;
+    padding-bottom: 2rem;
+  }
+}
+
+

@@ -57,7 +57,7 @@ function Reviews() {
           className={classes.botao}
           href="https://www.google.com/search?q=Victoria+Werner+-+Advocacia+Criminal&stick=H4sIAAAAAAAA_-NgU1IxqLAwMUgyT0lMTEkxNLcwNkixMqgwSjQxT7JMMzU2tEizMDFZxKoSlplckl-UmagQnlqUl1qkoKvgmFKWn5yYDBRyLsrMzcxLzAEALS6sTU8AAAA&hl=pt-BR&mat=CRYHYFl2NyjeElcBNqvzOhlZxxR6pQ6kzh7h8P42VvkPoKnDQWznttIsdZcJmWHCNf_NJvKpFIfq0xtplutWeaOJv1QSoB5L0317rdRLOHj5k6fTW3c7BMRl7qXov5zGnkM&authuser=0#lrd=0x840b7daadd17830d:0x2a47b9f5318f844,1,,,,"
         >
-          Confira todas as nossas avaliações
+          Confira todas as avaliações
           <img
             src={
               "https://raw.githubusercontent.com/francopoffo/image-files/main/google-logo.png"

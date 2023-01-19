@@ -10,7 +10,7 @@ function Banner() {
         </h1>
         <div>
           <a
-            href="https://api.whatsapp.com/send?phone=5547999230603&text=Vim pelo site."
+            href="https://api.whatsapp.com/send?phone=5547996151048&text=Vim pelo site."
             target="_blank"
             className={classes.contato}
           >
