@@ -13,7 +13,7 @@ function Review(props) {
           height={100}
         />
         <h3>{props.nome}</h3>
-        <h4>{props.avaliacao}</h4>
+        <p>{props.avaliacao}</p>
       </article>
     </li>
   );

@@ -1,10 +1,13 @@
 import React from "react";
 import classes from "./Contato.module.css";
+import { FaInstagramSquare } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
+import { BsTelephoneFill } from "react-icons/bs";
 
 function Contato() {
   return (
     <section className={classes.contato}>
-      <h2>Atendemos em Balneário Camboriú, Itajaí e região</h2>
+      <h2>Atendemos em toda a região de Balneário Camboriú e Itajaí</h2>
       <div className={classes.infos}>
         <address className={classes.local}>
           <iframe
@@ -16,14 +19,22 @@ function Contato() {
             referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
         </address>
+        <h3>Entre em contato</h3>
         <div className={classes.enderecos}>
           <p>
-            Telefone: <a href="tel:(47) 99923-0603">(47) 99923-0603</a>
+            <BsTelephoneFill />{" "}
+            <a href="tel:(47) 99615-1048">(47) 99615-1048</a>
           </p>
           <p>
-            E-mail:{" "}
+            <MdEmail />{" "}
             <a href="mailto:victoriawerneradv@gmail.com">
               victoriawerneradv@gmail.com
+            </a>
+          </p>
+          <p>
+            <FaInstagramSquare />{" "}
+            <a href="https://www.instagram.com/victoriawerneradv/">
+              victoriawerneradv
             </a>
           </p>
         </div>

@@ -15,7 +15,7 @@
   color: var(--very-dark-blue);
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 .review img {
@@ -28,7 +28,8 @@
   font-size: 1.3rem;
 }
 
-.review h4 {
+.review p {
+  line-height: 1.2rem;
   padding: 1rem;
 }
 
@@ -43,20 +44,16 @@
   .card {
     margin: 0;
     width: 85%;
-    height: 180px;
+    height: 200px;
     margin-bottom: 0.5rem;
-  }
-
-  .review {
-    justify-content: center;
   }
 
   .review h3 {
     font-weight: bold;
-    font-size: 1.15rem;
+    font-size: 1rem;
   }
 
-  .review h4 {
+  .review p {
     font-size: 0.9rem;
   }
 }

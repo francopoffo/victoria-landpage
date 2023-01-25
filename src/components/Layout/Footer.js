@@ -14,7 +14,7 @@ function Footer() {
           victoriawerneradv@gmail.com
         </a>
       </p>
-      <p>Todos os direitos reservados © - 2023</p>
+      <p>Todos os direitos reservados © 2023</p>
     </footer>
   );
 }

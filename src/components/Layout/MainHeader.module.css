@@ -1,5 +1,4 @@
 .header {
-  width: 100vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -28,11 +27,11 @@
 .navigation li {
   padding: 1rem;
   display: block;
-  border-radius: 5px;
+  border-radius: 2px;
 }
 
 .navigation li:hover {
-  background-color: var(--dark-grayish-blue);
+  background-color: hsl(240, 70%, 12%);
   cursor: pointer;
 }
 
