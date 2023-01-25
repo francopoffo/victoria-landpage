@@ -1,5 +1,6 @@
 import React from "react";
 import classes from "./Banner.module.css";
+import Image from "next/image";
 
 function Banner() {
   return (
@@ -15,10 +16,11 @@ function Banner() {
             className={classes.contato}
           >
             Fale agora com uma especialista
-            <img
-              src={
-                "https://raw.githubusercontent.com/francopoffo/image-files/main/whatsapp.png"
-              }
+            <Image
+              src="https://raw.githubusercontent.com/francopoffo/image-files/main/whatsapp.png"
+              alt="Logo do whatsapp"
+              width={35}
+              height={35}
             />
           </a>
         </div>
