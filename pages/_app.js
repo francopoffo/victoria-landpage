@@ -6,7 +6,7 @@ import Head from "next/head";
 
 const inter = Inter({
   subsets: ["latin"],
-  weight: ["400", "600"],
+  weight: ["400", "500", "600"],
 });
 
 function MyApp({ Component, pageProps }) {
