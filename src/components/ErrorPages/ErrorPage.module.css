@@ -1,0 +1,15 @@
+.error {
+  background-color: var(--light-bege);
+  height: 300px;
+  display: flex;
+  align-items: center;
+}
+
+.error h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 auto;
+  padding: 1rem;
+}
