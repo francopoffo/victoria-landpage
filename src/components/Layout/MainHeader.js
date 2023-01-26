@@ -1,11 +1,19 @@
 import Link from "next/link";
 import classes from "./MainHeader.module.css";
+import Image from "next/image";
 
 function MainHeader() {
   return (
     <header className={classes.header}>
       <div className={classes.logo}>
-        <Link href="/">Victoria Werner</Link>
+        <Link href="/">
+          <Image
+            src="https://raw.githubusercontent.com/francopoffo/image-files/main/logo.png"
+            alt="Logo"
+            width={155.5}
+            height={70}
+          />
+        </Link>
       </div>
       <nav className={classes.navigation}>
         <ul>

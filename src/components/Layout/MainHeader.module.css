@@ -2,13 +2,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: var(--very-dark-blue);
-  color: var(--off-white);
+  background: var(--light-bege);
+  color: var(--dark-grey);
+  box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
 }
 
 .logo {
-  font-style: sans-serif;
-  font-size: 2.25rem;
   margin: 0.5rem;
   margin-left: 2rem;
 }
@@ -25,13 +24,15 @@
 }
 
 .navigation li {
+  height: 88px;
   padding: 1rem;
-  display: block;
+  display: flex;
+  align-items: center;
   border-radius: 2px;
 }
 
 .navigation li:hover {
-  background-color: hsl(240, 70%, 12%);
+  background-color: var(--bege);
   cursor: pointer;
 }
 

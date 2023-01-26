@@ -1,6 +1,6 @@
 .avaliacoes {
-  background: var(--grayish-blue);
-  color: var(--very-dark-blue);
+  background: var(--light-bege);
+  color: var(--dark-grey);
 }
 
 .avaliacoes h2 {
@@ -32,7 +32,7 @@
   align-items: center;
   margin: 0 auto;
   width: fit-content;
-  background-color: var(--very-dark-blue);
+  background-color: var(--dark-grey);
   color: var(--off-white);
   border: none;
   border-radius: 15px;
@@ -47,8 +47,8 @@
 }
 
 .botao:hover {
-  background-color: var(--dark-grayish-blue);
-  border: 3px solid var(--dark-grayish-blue);
+  background-color: black;
+  border: 3px solid black;
   cursor: pointer;
 }
 

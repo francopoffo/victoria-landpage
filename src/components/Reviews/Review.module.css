@@ -12,7 +12,7 @@
 
 .review {
   height: 100%;
-  color: var(--very-dark-blue);
+  color: var(--dark-grey);
   display: flex;
   flex-direction: column;
   justify-content: center;
