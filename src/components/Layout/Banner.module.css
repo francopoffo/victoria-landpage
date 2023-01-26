@@ -2,7 +2,8 @@
   margin: 0;
   height: 35rem;
   position: relative;
-  background: url("../../img/banner.jpg");
+  background: url("/img/banner.png");
+  background-color: rgba(0, 0, 0, 0.6);
   background-repeat: no-repeat;
   background-size: 100%;
   box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
