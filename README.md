@@ -28,7 +28,7 @@ To learn more about Next.js, take a look at the following resources:
 
 ## Colors I used to style my components
 
---off-white: hsl(36, 100%, 99%);
---grayish-blue: hsl(233, 8%, 79%);
---dark-grayish-blue: hsl(236, 13%, 42%);
---very-dark-blue: hsl(240, 100%, 5%);
+--off-white: hsl(36, 100%, 99%);<br>
+--light-bege: #f7f3ee;<br>
+--bege: #a68e74;<br>
+--dark-grey: #333;
