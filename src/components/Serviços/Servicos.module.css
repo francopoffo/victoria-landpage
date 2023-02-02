@@ -54,3 +54,30 @@
   background-color: #36a860;
   border: 1.5px solid #36a860;
 }
+
+@media screen and (max-width: 850px) {
+  .ajuda h2 {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    width: 100%;
+  }
+  .servicos {
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto;
+    column-gap: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .ajuda h2 {
+    font-size: 2.2rem;
+    line-height: 2.5rem;
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+  .servicos {
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto;
+    column-gap: 0;
+  }
+}

@@ -30,8 +30,6 @@ function Reviews() {
     FetchData();
   }, []);
 
-  console.log(dados);
-
   return (
     <section className={classes.avaliacoes}>
       <div>
