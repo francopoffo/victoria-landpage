@@ -45,7 +45,7 @@ function Servicos() {
           target="_blank"
           className={classes.contato}
         >
-          Urgência? Clique aqui e fale conosco
+          Clique aqui e fale conosco
           <Image
             src="https://raw.githubusercontent.com/francopoffo/image-files/main/whatsapp.png"
             alt="Logo do whatsapp"
