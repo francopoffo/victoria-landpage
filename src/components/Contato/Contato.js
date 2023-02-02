@@ -7,7 +7,10 @@ import { BsTelephoneFill } from "react-icons/bs";
 function Contato() {
   return (
     <section className={classes.contato}>
-      <h2>Atendemos em toda a região de Balneário Camboriú e Itajaí</h2>
+      <h2>
+        Atendemos presencialmente em toda a região de Balneário Camboriú e
+        Itajaí
+      </h2>
       <div className={classes.infos}>
         <address className={classes.local}>
           <iframe
@@ -19,7 +22,7 @@ function Contato() {
             referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
         </address>
-        <h3>Entre em contato</h3>
+        <h3>Entre em contato conosco</h3>
         <div className={classes.enderecos}>
           <p>
             <BsTelephoneFill />{" "}
