@@ -42,8 +42,8 @@
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.6);
 }
 
-.botao img {
-  margin-left: 0.75rem;
+.botao a {
+  margin-right: 0.75rem;
 }
 
 .botao:hover {

@@ -13,7 +13,6 @@ function Reviews() {
         "https://victoria-landpage-default-rtdb.firebaseio.com/reviews.json"
       );
       const dadosConvertidos = await dados.json();
-      console.log(dadosConvertidos);
 
       const AVALIACOES = [];
 
@@ -24,16 +23,12 @@ function Reviews() {
           avaliacao: dadosConvertidos[key].avaliacao,
         });
 
-        console.log(AVALIACOES);
-
         setDados(AVALIACOES);
         setDataLoaded(true);
       }
     };
     FetchData();
   }, []);
-
-  console.log(dados);
 
   return (
     <section className={classes.avaliacoes}>
