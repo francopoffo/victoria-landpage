@@ -30,12 +30,12 @@ function Reviews() {
     FetchData();
   }, []);
 
+  console.log(dados);
+
   return (
     <section className={classes.avaliacoes}>
       <div>
-        <h2>
-          Atendimento humano e de alto nível reconhecido pelos nossos clientes
-        </h2>
+        <h2>Veja o feedback dos nossos clientes</h2>
       </div>
       <ul className={classes.reviews}>
         {dataLoaded &&
