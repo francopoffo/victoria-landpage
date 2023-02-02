@@ -6,16 +6,14 @@ function Sobre() {
     <section className={classes.sobre}>
       <h2>Sobre mim</h2>
       <p>
-        Informações como: tempo de mercado, nível de experiência, área de
-        atuação, serviços e diferenciais, missão e valores são fundamentais.
-        Mas, não tente estender muito o texto, escreva somente aquilo que seja
-        realmente relevante. Textos longos são cansativos e podem fazer com que
-        o cliente desista de ler toda a descrição. Informações como: tempo de
-        mercado, nível de experiência, área de atuação, serviços e diferenciais,
-        missão e valores são fundamentais. Mas, não tente estender muito o
-        texto, escreva somente aquilo que seja realmente relevante. Textos
-        longos são cansativos e podem fazer com que o cliente desista de ler
-        toda a descrição.
+        Advogada especialista em causas criminais, Victoria Werner é pós
+        graduanda em direito penal e criminologia na PUC/RS.
+      </p>
+      <h2>Objetivo</h2>
+      <p>
+        Entregar aos nossos clientes uma defesa humanizada, em que tratamos cada
+        caso com a sua individualidade. Fornecendo suporte 24h e atendendo
+        urgências a qualquer momento.
       </p>
     </section>
   );
