@@ -5,6 +5,13 @@ import Image from "next/image";
 function Banner() {
   return (
     <div className={classes.banner}>
+      <Image
+        src="https://raw.githubusercontent.com/francopoffo/image-files/main/banner2.jpg"
+        alt="Mesa com um malhete"
+        fill
+        priority={true}
+        placeholder={blur}
+      />
       <div className={classes.conteudo}>
         <h1 className={classes.titulo}>
           ADVOGADA ESPECIALIZADA EM CASOS CRIMINAIS
