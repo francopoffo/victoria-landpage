@@ -2,6 +2,7 @@
   margin: 0;
   height: 45rem;
   position: relative;
+  overflow: hidden;
   box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
 }
 
@@ -47,10 +48,8 @@
 
 @media screen and (max-width: 850px) {
   .banner {
-    background-size: cover;
-    background-position: center;
-    width: 100vw;
     height: 28rem;
+    width: 100vw;
   }
 
   .conteudo {
@@ -64,13 +63,6 @@
 }
 
 @media screen and (max-width: 600px) {
-  .banner {
-    background-size: cover;
-    background-position: center;
-    width: 100vw;
-    height: 28rem;
-  }
-
   .conteudo {
     top: 40%;
     margin-top: 2.5rem;
