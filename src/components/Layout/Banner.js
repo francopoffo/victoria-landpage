@@ -10,7 +10,6 @@ function Banner() {
         alt="Mesa com um malhete"
         fill
         priority={true}
-        placeholder={blur}
       />
       <div className={classes.conteudo}>
         <h1 className={classes.titulo}>

@@ -1,6 +1,5 @@
 ### Still in development
 
-
 ## About
 
 This is my first professional project. A landing page for a lawyer in Brazil.
@@ -33,5 +32,6 @@ To learn more about Next.js, take a look at the following resources:
 
 --off-white: hsl(36, 100%, 99%);<br>
 --light-bege: #f7f3ee;<br>
---bege: #a68e74;<br>
+--mid-bege: #e5dbd0;<br>
+--bege: #beb4a8;<br>
 --dark-grey: #333;
