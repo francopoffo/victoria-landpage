@@ -1,8 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Contato from "../../src/components/Contato/Contato";
 import Head from "next/head";
 
 function index() {
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      window.dataLayer.push({
+        event: "pageview",
+      });
+    }
+  }, []);
+
   return (
     <>
       <Head>
