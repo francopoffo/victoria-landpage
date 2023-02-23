@@ -6,7 +6,6 @@ export default function Home(props) {
   return (
     <>
       <Servicos servicos={props.servicos} />
-
       <Reviews />
     </>
   );

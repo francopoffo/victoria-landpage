@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from "react";
 import Servico from "./Servico";
 import classes from "./Servicos.module.css";
 import Image from "next/image";
