@@ -9,6 +9,7 @@
   padding: 1.5rem;
   border-radius: 5px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border: 0.3px solid var(--dark-grey);
   width: 250px;
   height: 160px;
   text-align: center;

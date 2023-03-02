@@ -16,7 +16,7 @@
   width: 50%;
   margin: 0 auto;
   margin-bottom: 3rem;
-  padding-top: 1rem;
+  padding: 1.5rem;
   font-size: 2.8rem;
 }
 
@@ -57,9 +57,9 @@
 
 @media screen and (max-width: 850px) {
   .ajuda h2 {
-    font-size: 2.5rem;
+    font-size: 2.1rem;
     line-height: 2.5rem;
-    width: 100%;
+    width: fit-content;
   }
   .servicos {
     grid-template-columns: auto auto;
@@ -71,7 +71,7 @@
 @media screen and (max-width: 600px) {
   .ajuda h2 {
     font-size: 2.2rem;
-    line-height: 2.5rem;
+    line-height: 2.4rem;
     margin-bottom: 1rem;
     width: 100%;
   }

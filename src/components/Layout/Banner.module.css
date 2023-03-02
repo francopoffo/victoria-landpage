@@ -48,27 +48,37 @@
 
 @media screen and (max-width: 850px) {
   .banner {
-    height: 28rem;
+    height: 35rem;
     width: 100vw;
   }
 
   .conteudo {
     top: 40%;
+    width: 70%;
     margin-top: 2.5rem;
   }
 
   .titulo {
+    line-height: 3.5rem;
     margin-bottom: 2rem;
   }
 }
 
 @media screen and (max-width: 600px) {
+  .banner {
+    height: 28rem;
+  }
+
   .conteudo {
+    width: 100%;
     top: 40%;
     margin-top: 2.5rem;
   }
 
   .titulo {
-    margin-bottom: 2rem;
+    margin: 0;
+    font-size: 2.3rem;
+    line-height: 3.3rem;
+    margin: 5rem 0;
   }
 }
