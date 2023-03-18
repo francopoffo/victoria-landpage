@@ -31,8 +31,10 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Colors I used to style my components
 
---off-white: hsl(36, 100%, 99%);<br>
---light-bege: #f7f3ee;<br>
---mid-bege: #e5dbd0;<br>
---bege: #beb4a8;<br>
+```css
+--off-white: hsl(36, 100%, 99%);
+--light-bege: #f7f3ee;
+--mid-bege: #e5dbd0;
+--bege: #beb4a8;
 --dark-grey: #333;
+```
