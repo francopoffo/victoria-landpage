@@ -15,6 +15,7 @@ Other:
 - Firebase for storing data
 - Google tag added to sync the page with Google Ads
 
+
 ## Getting Started
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
@@ -38,3 +39,5 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 --bege: #beb4a8;
 --dark-grey: #333;
 ```
+
+## Logo and icons design by [@joao.saint](https://www.instagram.com/joao.saint/)
