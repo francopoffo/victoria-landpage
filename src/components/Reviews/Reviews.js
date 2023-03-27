@@ -33,7 +33,7 @@ function Reviews() {
   return (
     <section className={classes.avaliacoes}>
       <div>
-        <h2>Veja o feedback dos nossos clientes</h2>
+        <h2>Feedback dos nossos clientes</h2>
       </div>
       <ul className={classes.reviews}>
         {dataLoaded &&

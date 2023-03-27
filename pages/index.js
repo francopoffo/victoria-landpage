@@ -1,4 +1,5 @@
 import Reviews from "../src/components/Reviews/Reviews";
+import Sobre from "../src/components/Sobre/Sobre";
 import Servicos from "../src/components/Serviços/Servicos";
 import { getServicos } from "../helpers/api-util";
 import { useEffect } from "react";
@@ -14,6 +15,7 @@ export default function Home(props) {
 
   return (
     <>
+      <Sobre />
       <Servicos servicos={props.servicos} />
       <Reviews />
     </>

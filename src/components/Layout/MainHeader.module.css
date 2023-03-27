@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: var(--light-bege);
+  background: var(--off-white);
   color: var(--dark-grey);
   box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
 }
@@ -24,7 +24,7 @@
 }
 
 .navigation li {
-  height: 88px;
+  height: 120px;
   padding: 1rem;
   display: flex;
   align-items: center;

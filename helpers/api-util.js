@@ -11,6 +11,7 @@ export async function getServicos() {
     SERVICOS.push({
       id: key,
       servico: dadosConvertidos[key].servico,
+      img: dadosConvertidos[key].img,
     });
   }
 

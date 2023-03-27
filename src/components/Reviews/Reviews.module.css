@@ -1,16 +1,18 @@
 .avaliacoes {
-  padding-top: 2rem;
+  padding-top: 4rem;
+  height: 100vh;
   background: var(--light-bege);
   color: var(--dark-grey);
 }
 
 .avaliacoes h2 {
+  color: var(--dark-grey);
   font-style: sans-serif;
   text-align: center;
   width: 50%;
   margin: 0 auto;
-  margin-bottom: 2rem;
-  padding-top: 2rem;
+  margin-bottom: 3rem;
+  padding: 1.5rem;
   font-size: 2.5rem;
 }
 
@@ -35,10 +37,10 @@
   background-color: var(--dark-grey);
   color: var(--off-white);
   border: none;
-  border-radius: 15px;
+  border-radius: 5px;
   padding: 15px;
   text-align: center;
-  font-size: 1.15rem;
+  font-size: 1rem;
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.6);
 }
 

@@ -5,12 +5,14 @@ import Image from "next/image";
 function Servicos(props) {
   const servicos = props.servicos;
 
+  console.log(servicos);
+
   return (
     <section className={classes.ajuda}>
       <h2>Veja no que podemos te ajudar</h2>
       <ul className={classes.servicos}>
         {servicos.map((item) => (
-          <Servico key={item.id} servico={item.servico} />
+          <Servico key={item.id} servico={item.servico} image={item.img} />
         ))}
       </ul>
       <div>
