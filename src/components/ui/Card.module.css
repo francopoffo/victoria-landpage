@@ -1,0 +1,27 @@
+.card {
+  list-style-type: none;
+  background-color: var(--off-white);
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 400px;
+  height: 250px;
+  text-align: center;
+}
+
+@media screen and (max-width: 850px) {
+  .card {
+    height: 280px;
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .card {
+    margin: 0;
+    width: 85%;
+    height: 230px;
+    margin-bottom: 0.5rem;
+  }
+}

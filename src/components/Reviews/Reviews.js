@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Review from "./Review";
 import Image from "next/image";
 import classes from "./Reviews.module.css";
+import Card from "../ui/Card";
 
 function Reviews() {
   const [dados, setDados] = useState();
@@ -38,11 +39,13 @@ function Reviews() {
       <ul className={classes.reviews}>
         {dataLoaded &&
           dados.map((review) => (
-            <Review
-              key={review.id}
-              nome={review.nome}
-              avaliacao={review.avaliacao}
-            />
+            <Card>
+              <Review
+                key={review.id}
+                nome={review.nome}
+                avaliacao={review.avaliacao}
+              />
+            </Card>
           ))}
       </ul>
       <div className={classes.botaoreviews}>

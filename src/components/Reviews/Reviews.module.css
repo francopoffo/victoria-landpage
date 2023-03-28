@@ -17,7 +17,7 @@
 }
 
 .reviews {
-  font-family: "Inter", sans-serif;
+  font-family: "Montserrat", sans-serif;
   display: flex;
   justify-content: space-evenly;
   padding-bottom: 2rem;
@@ -28,7 +28,7 @@
 }
 
 .botao {
-  font-family: "Inter", sans-serif;
+  font-family: "Montserrat", sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -55,12 +55,22 @@
 }
 
 @media screen and (max-width: 850px) {
+  .avaliacoes {
+    height: fit-content;
+  }
+
   .reviews {
     flex-wrap: wrap;
   }
 
   .avaliacoes h2 {
+    font-size: 3rem;
+    line-height: 3rem;
     width: 80%;
+  }
+
+  .botao {
+    font-size: 1.3rem;
   }
 }
 

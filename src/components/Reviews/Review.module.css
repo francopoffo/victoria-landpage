@@ -1,16 +1,5 @@
-.card {
-  list-style-type: none;
-  background-color: var(--off-white);
-  margin: 1rem;
-  padding: 1rem;
-  border-radius: 5px;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  width: 400px;
-  height: 250px;
-  text-align: center;
-}
-
 .review {
+  font-family: "Montserrat", sans-serif;
   height: 100%;
   color: var(--dark-grey);
   display: flex;
@@ -34,26 +23,18 @@
 }
 
 @media screen and (max-width: 850px) {
-  .card {
-    margin: 0.5rem;
-    width: 300px;
+  .review p {
+    font-size: 1.3rem;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .card {
-    margin: 0;
-    width: 85%;
-    height: 200px;
-    margin-bottom: 0.5rem;
-  }
-
   .review h3 {
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 
   .review p {
-    font-size: 0.9rem;
+    font-size: 1.1rem;
   }
 }

@@ -8,15 +8,15 @@
 }
 
 .contato h2 {
-  font-style: sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-align: center;
-  width: 70%;
+  width: 50%;
   margin: 0 auto;
   margin-bottom: 2rem;
   padding-top: 2rem;
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   font-weight: 500;
-  line-height: 2.9rem;
+  line-height: 2.6rem;
 }
 
 .infos {
@@ -28,16 +28,16 @@
 
 .infos h3 {
   width: 80%;
-  font-style: sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-align: center;
   margin: 0 auto;
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   font-weight: 500;
-  line-height: 2.9rem;
+  line-height: 2.6rem;
 }
 
 .enderecos {
-  font-family: "Inter", sans-serif;
+  font-family: "Montserrat", sans-serif;
   background-color: var(--off-white);
   margin: 3rem 2rem;
   margin-top: 0;

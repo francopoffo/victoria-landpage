@@ -1,13 +1,13 @@
 import "../styles/reset.css";
 import "../styles/globals.css";
-import { Inter } from "@next/font/google";
+import { Montserrat } from "@next/font/google";
 import Layout from "../src/components/Layout/Layout";
 import Head from "next/head";
 import Script from "next/script";
 
-const inter = Inter({
+const montserrat = Montserrat({
   subsets: ["latin"],
-  weight: ["400", "500", "600"],
+  weight: ["100", "200", "400", "500", "600"],
 });
 
 function MyApp({ Component, pageProps }) {
@@ -35,7 +35,7 @@ function MyApp({ Component, pageProps }) {
           gtag('config', 'AW-11027113595');
         `}
       </Script>
-      <Layout className={inter.className}>
+      <Layout className={montserrat.className}>
         <Component {...pageProps} />
       </Layout>
     </>

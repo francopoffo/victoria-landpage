@@ -9,7 +9,7 @@ function Servicos(props) {
 
   return (
     <section className={classes.ajuda}>
-      <h2>Veja no que podemos te ajudar</h2>
+      <h2>Nossas especialidades</h2>
       <ul className={classes.servicos}>
         {servicos.map((item) => (
           <Servico key={item.id} servico={item.servico} image={item.img} />

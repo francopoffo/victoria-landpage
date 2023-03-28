@@ -4,7 +4,7 @@ import Image from "next/image";
 
 function Review(props) {
   return (
-    <li className={classes.card}>
+    <li>
       <article className={classes.review}>
         <Image
           src="https://raw.githubusercontent.com/francopoffo/image-files/main/five-star.png"

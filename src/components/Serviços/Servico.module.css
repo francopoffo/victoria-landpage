@@ -17,8 +17,9 @@
 
 .servico h3 {
   color: var(--dark-grey);
-  line-height: 1.85rem;
-  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5rem;
+  font-size: 1.3rem;
 }
 
 .icon {
@@ -29,12 +30,31 @@
 
 @media screen and (max-width: 850px) {
   .servico {
+    grid-column: span 2;
     width: 350px;
+  }
+
+  .servico:last-child {
+    grid-column-end: 4;
+  }
+
+  .servico h3 {
+    font-size: 1.7rem;
   }
 }
 
 @media screen and (max-width: 600px) {
   .servico {
     width: 90%;
+    grid-column: span 0;
+    margin: 0.5rem auto;
+  }
+
+  .servico:last-child {
+    grid-column-end: 1;
+  }
+
+  .servico h3 {
+    font-size: 1.2rem;
   }
 }
