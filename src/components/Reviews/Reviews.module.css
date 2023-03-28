@@ -1,6 +1,6 @@
 .avaliacoes {
-  padding-top: 4rem;
-  height: 100vh;
+  padding-top: 2rem;
+  height: fit-content;
   background: var(--light-bege);
   color: var(--dark-grey);
 }
@@ -55,10 +55,6 @@
 }
 
 @media screen and (max-width: 850px) {
-  .avaliacoes {
-    height: fit-content;
-  }
-
   .reviews {
     flex-wrap: wrap;
   }

@@ -5,8 +5,8 @@
     var(--mid-bege) 82%,
     var(--light-bege) 99%
   );
-  height: 100vh;
-  padding-top: 4rem;
+  height: fit-content;
+  padding: 2rem 0;
 }
 
 .ajuda h2 {
@@ -56,11 +56,6 @@
 }
 
 @media screen and (max-width: 850px) {
-  .ajuda {
-    height: fit-content;
-    padding-bottom: 2rem;
-  }
-
   .ajuda h2 {
     font-size: 3rem;
     line-height: 3rem;
