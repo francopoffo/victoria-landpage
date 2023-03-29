@@ -25,6 +25,7 @@
 @media screen and (max-width: 850px) {
   .review p {
     font-size: 1.3rem;
+    line-height: 1.5rem;
   }
 }
 
@@ -36,5 +37,6 @@
 
   .review p {
     font-size: 1.1rem;
+    line-height: 1.3rem;
   }
 }

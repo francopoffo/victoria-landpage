@@ -21,7 +21,7 @@
   .card {
     margin: 0;
     width: 85%;
-    height: 230px;
+    height: fit-content;
     margin-bottom: 0.5rem;
   }
 }
