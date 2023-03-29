@@ -1,8 +1,30 @@
-import React from "react";
+import React, { useEffect } from "react";
 import classes from "./Banner.module.css";
 import Image from "next/image";
 
 function Banner() {
+  // let imageSrc = "/img/banner2.jpg";
+
+  // let w;
+
+  // if (typeof window !== "undefined") {
+  //   w = window.innerWidth;
+  //   console.log(w);
+  // }
+
+  // function bannerImg() {
+  //   if (w < 500) {
+  //     imageSrc = "/img/banner3.png";
+  //   } else {
+  //     imageSrc = "/img/banner2.jpg";
+  //   }
+  // }
+
+  // useEffect(() => {
+  //   bannerImg();
+  //   console.log(w);
+  // }, [imageSrc, w]);
+
   return (
     <div className={classes.banner}>
       <Image src="/img/banner2.jpg" alt="Mesa com um malhete" fill priority />

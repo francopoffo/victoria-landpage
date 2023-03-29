@@ -6,15 +6,14 @@ The project was made using several features from Next.js:
 
 - file-base routing
 - static props generation
-- performance features like next/image and next/script
+- performance features like next/image, next/script, next/font
 - SEO performance with Head component and \_document.js
 
 Other:
 
-- CSS modules and React Icons for styling
+- CSS modules and React Icons (only for the contact page) for styling
 - Firebase for storing data
 - Google tag added to sync the page with Google Ads
-
 
 ## Getting Started
 

@@ -39,12 +39,8 @@ function Reviews() {
       <ul className={classes.reviews}>
         {dataLoaded &&
           dados.map((review) => (
-            <Card>
-              <Review
-                key={review.id}
-                nome={review.nome}
-                avaliacao={review.avaliacao}
-              />
+            <Card key={review.id}>
+              <Review nome={review.nome} avaliacao={review.avaliacao} />
             </Card>
           ))}
       </ul>

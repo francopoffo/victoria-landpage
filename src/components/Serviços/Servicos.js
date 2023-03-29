@@ -5,8 +5,6 @@ import Image from "next/image";
 function Servicos(props) {
   const servicos = props.servicos;
 
-  console.log(servicos);
-
   return (
     <section className={classes.ajuda}>
       <h2>Nossas especialidades</h2>

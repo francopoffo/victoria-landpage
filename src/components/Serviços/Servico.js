@@ -8,8 +8,8 @@ function Servico(props) {
       <Image
         src={`${props.image}`}
         alt={`Ícone representando: ${props.servico}`}
-        width={50}
-        height={50}
+        width={90}
+        height={90}
       />
       <h3>{props.servico}</h3>
     </li>
