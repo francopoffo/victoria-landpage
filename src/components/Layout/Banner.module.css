@@ -22,6 +22,8 @@
   font-style: sans-serif;
   font-size: 3rem;
   text-align: center;
+  width: 90%;
+  margin: 0 auto;
   margin-bottom: 5rem;
 }
 
@@ -84,10 +86,9 @@
   }
 
   .titulo {
-    margin: 0;
     font-size: 2.3rem;
     line-height: 3.3rem;
-    margin: 5rem 0;
+    margin: 5rem auto;
   }
 
   .contato {
