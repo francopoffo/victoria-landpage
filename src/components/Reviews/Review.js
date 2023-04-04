@@ -9,7 +9,7 @@ function Review(props) {
         <Image
           src="https://raw.githubusercontent.com/francopoffo/image-files/main/five-star.png"
           alt="Avaliação do google com 5 estrelas cheias de 5 possíveis"
-          width={156.6}
+          width={157}
           height={100}
         />
         <h3>{props.nome}</h3>

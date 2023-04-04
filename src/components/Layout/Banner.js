@@ -22,7 +22,6 @@ function Banner() {
 
   useEffect(() => {
     bannerImg();
-    console.log(windowSize);
   }, [windowSize]);
 
   return (
