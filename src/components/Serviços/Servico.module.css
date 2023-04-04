@@ -9,17 +9,20 @@
   padding: 1rem;
   border-radius: 5px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  border: 0.3px solid var(--dark-grey);
   width: 260px;
   height: 275px;
   text-align: center;
+}
+
+.servico:hover {
+  border: 0.2px solid var(--dark-grey);
 }
 
 .servico h3 {
   color: var(--dark-grey);
   font-family: "Montserrat", sans-serif;
   line-height: 1.5rem;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 
 .icon {
@@ -55,6 +58,6 @@
   }
 
   .servico h3 {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   }
 }

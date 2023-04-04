@@ -1,6 +1,6 @@
 .banner {
   margin: 0;
-  height: 45rem;
+  height: 39rem;
   position: relative;
   overflow: hidden;
   box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
@@ -20,9 +20,9 @@
 
 .titulo {
   font-style: sans-serif;
-  font-size: 3rem;
+  font-size: 3.2rem;
   text-align: center;
-  width: 90%;
+  width: 95%;
   margin: 0 auto;
   margin-bottom: 5rem;
 }

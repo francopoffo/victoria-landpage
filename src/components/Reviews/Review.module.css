@@ -9,6 +9,8 @@
 
 .review img {
   margin: 0 auto;
+  width: auto;
+  height: auto;
 }
 
 .review h3 {

@@ -1,33 +1,33 @@
 import React, { useEffect } from "react";
 import classes from "./Banner.module.css";
 import Image from "next/image";
+import useWindowSize from "../../hooks/useWindowSize";
+
+let imageSrc = "/img/banner_desktop.jpeg";
 
 function Banner() {
-  // let imageSrc = "/img/banner2.jpg";
+  let windowSize = useWindowSize();
 
-  // let w;
+  let userWidth = windowSize.width;
 
-  // if (typeof window !== "undefined") {
-  //   w = window.innerWidth;
-  //   console.log(w);
-  // }
+  function bannerImg() {
+    if (userWidth < 600) {
+      imageSrc = "/img/banner_mobile.jpeg";
+    } else {
+      imageSrc = "/img/banner_desktop.jpeg";
+    }
+  }
 
-  // function bannerImg() {
-  //   if (w < 500) {
-  //     imageSrc = "/img/banner3.png";
-  //   } else {
-  //     imageSrc = "/img/banner2.jpg";
-  //   }
-  // }
+  bannerImg();
 
-  // useEffect(() => {
-  //   bannerImg();
-  //   console.log(w);
-  // }, [imageSrc, w]);
+  useEffect(() => {
+    bannerImg();
+    console.log(windowSize);
+  }, [windowSize]);
 
   return (
     <div className={classes.banner}>
-      <Image src="/img/banner2.jpg" alt="Mesa com um malhete" fill priority />
+      <Image src={imageSrc} alt="Mesa com um malhete" fill priority />
       <div className={classes.conteudo}>
         <h1 className={classes.titulo}>
           ADVOGADA ESPECIALIZADA EM CASOS CRIMINAIS
