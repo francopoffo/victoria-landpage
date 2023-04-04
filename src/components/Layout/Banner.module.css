@@ -8,6 +8,7 @@
 
 .banner img {
   height: fit-content;
+  opacity: 0.8;
 }
 
 .conteudo {
@@ -19,6 +20,8 @@
 }
 
 .titulo {
+  color: white;
+  text-shadow: -1px 0 grey, 0 1px grey, 1px 0 grey, 0 -1px grey;
   font-style: sans-serif;
   font-size: 3.2rem;
   text-align: center;

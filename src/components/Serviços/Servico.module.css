@@ -16,6 +16,7 @@
 
 .servico:hover {
   border: 0.2px solid var(--dark-grey);
+  box-shadow: rgba(100, 100, 111, 0.7) 0px 7px 29px 0px;
 }
 
 .servico h3 {
