@@ -26,7 +26,12 @@ function Banner() {
 
   return (
     <div className={classes.banner}>
-      <Image src={imageSrc} alt="Mesa com um malhete" fill priority />
+      <Image
+        src={imageSrc}
+        alt="Mesa com uma balança de Têmis que indica justiça"
+        fill
+        priority
+      />
       <div className={classes.conteudo}>
         <h1 className={classes.titulo}>
           ADVOGADA ESPECIALIZADA EM CASOS CRIMINAIS
