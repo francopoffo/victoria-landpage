@@ -9,13 +9,14 @@ The project was made using several features from Next.js:
 - performance features like next/image, next/script, next/font
 - SEO performance with Head component and \_document.js
 
-Other:
+Other technologies used:
 
 - CSS modules and React Icons (only for the contact page) for styling
 - Firebase for storing data
 - Google tag added to sync the page with Google Ads
+- Custom hook: useWindowSize
 
-## Getting Started
+## How to run it
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
@@ -39,4 +40,4 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 --dark-grey: #333;
 ```
 
-## Logo and icons design by [@joao.saint](https://www.instagram.com/joao.saint/)
+## Logo and icons design from the home page by [@joao.saint](https://www.instagram.com/joao.saint/)
