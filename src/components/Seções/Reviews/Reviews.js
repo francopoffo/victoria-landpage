@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Review from "./Review";
 import Image from "next/image";
 import classes from "./Reviews.module.css";
-import Card from "../ui/Card";
+import Card from "../../ui/Card";
 
 function Reviews() {
   const [dados, setDados] = useState();

@@ -1,6 +1,6 @@
-import Reviews from "../src/components/Reviews/Reviews";
-import Sobre from "../src/components/Sobre/Sobre";
-import Servicos from "../src/components/Serviços/Servicos";
+import Reviews from "../src/components/Seções/Reviews/Reviews";
+import Sobre from "../src/components/Seções/Sobre/Sobre";
+import Servicos from "../src/components/Seções/Serviços/Servicos";
 import { getServicos } from "../helpers/api-util";
 import { useEffect } from "react";
 
