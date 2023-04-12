@@ -45,14 +45,18 @@
 }
 
 .sobre h2 {
-  font-size: 2.5rem;
+  font-size: 2.7rem;
+  font-family: var(--title-font);
   text-align: center;
   padding: 1rem 0;
+  text-shadow: -1.5px 0 var(--mid-bege), 0 1.5px var(--mid-bege),
+    1.5px 0 var(--mid-bege), 0 -1.5px var(--mid-bege);
 }
 
 .sobre p {
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--paragraph-font);
   font-size: 1.3rem;
+  font-weight: 300;
   line-height: 1.8rem;
   text-align: justify;
   margin: 1rem 4rem;

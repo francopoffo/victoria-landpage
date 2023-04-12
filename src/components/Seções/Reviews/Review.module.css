@@ -20,13 +20,14 @@
 }
 
 .review p {
-  line-height: 1.2rem;
+  font-size: 0.9rem;
+  line-height: 1.1rem;
   padding: 1rem;
 }
 
 @media screen and (max-width: 850px) {
   .review p {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     line-height: 1.5rem;
   }
 }

@@ -11,13 +11,15 @@
 
 .ajuda h2 {
   color: var(--dark-grey);
-  font-style: sans-serif;
+  text-shadow: -1.5px 0 var(--light-bege), 0 1.5px var(--light-bege),
+    1.5px 0 var(--light-bege), 0 -1.5px var(--light-bege);
+  font-family: var(--title-font);
   text-align: center;
   width: 50%;
   margin: 0 auto;
   margin-bottom: 3rem;
   padding: 1.5rem;
-  font-size: 2.5rem;
+  font-size: 2.7rem;
 }
 
 .servicos {
@@ -30,7 +32,7 @@
 }
 
 .contato {
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--paragraph-font);
   display: flex;
   justify-content: center;
   align-items: center;
