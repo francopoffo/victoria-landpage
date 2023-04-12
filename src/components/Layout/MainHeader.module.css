@@ -13,7 +13,7 @@
 }
 
 .navigation {
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--paragraph-font);
   margin-right: 4rem;
 }
 

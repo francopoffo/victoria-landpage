@@ -37,7 +37,7 @@
 }
 
 .enderecos {
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--paragraph-font);
   background-color: var(--off-white);
   margin: 3rem 2rem;
   margin-top: 0;

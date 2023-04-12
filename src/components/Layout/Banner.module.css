@@ -31,7 +31,7 @@
 }
 
 .contato {
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--paragraph-font);
   display: flex;
   justify-content: center;
   align-items: center;

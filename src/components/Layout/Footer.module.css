@@ -1,5 +1,5 @@
 .footer {
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--paragraph-font);
   font-weight: 400;
   display: flex;
   text-align: center;
