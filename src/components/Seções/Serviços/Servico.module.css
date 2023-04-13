@@ -53,10 +53,6 @@
     margin: 0.5rem auto;
   }
 
-  .servico:last-child {
-    grid-column-end: 1;
-  }
-
   .servico h3 {
     font-size: 1.3rem;
   }
