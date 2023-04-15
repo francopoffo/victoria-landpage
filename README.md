@@ -11,6 +11,7 @@ The project was made using several features from Next.js:
 
 Other technologies used:
 
+- Lighthouse and Vercel to measure performance and SEO.
 - CSS modules and React Icons (only for the contact page) for styling
 - Firebase for storing data
 - Google tag added to sync the page with Google Ads
