@@ -16,6 +16,7 @@ Other technologies used:
 - Firebase for storing data
 - Google tag added to sync the page with Google Ads
 - Custom hook: useWindowSize
+- Form backend platform by [formsubmit](https://formsubmit.co/)
 
 ## How to run it
 
