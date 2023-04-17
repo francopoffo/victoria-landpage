@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import Contato from "../../src/components/Contato/Contato";
 import Head from "next/head";
+import Formulario from "../../src/components/Contato/Formulario";
 
 function index() {
   useEffect(() => {
@@ -21,6 +22,7 @@ function index() {
         <title>Victoria Werner - Contato</title>
       </Head>
       <Contato />
+      <Formulario />
     </>
   );
 }
