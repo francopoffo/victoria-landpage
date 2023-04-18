@@ -5,10 +5,30 @@ function Formulario() {
   const [mensagem, setMensagem] = useState("");
   const [nome, setNome] = useState("");
   const [email, setEmail] = useState("");
+  const [loading, setLoading] = useState(false);
   const [aviso, setAviso] = useState(false);
 
-  function formSubmitHandler(e) {
+  async function formSubmitHandler(e) {
     e.preventDefault();
+
+    setLoading(true);
+
+    const data = await fetch(
+      "https://formsubmit.co/ajax/c6f394ac1484243155eebbe3687e91e1",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: JSON.stringify(Object.fromEntries(new FormData(e.target))),
+      }
+    );
+
+    const responseData = await data.json();
+    console.log(responseData);
+
+    setLoading(false);
 
     setNome("");
     setEmail("");
@@ -19,11 +39,7 @@ function Formulario() {
   return (
     <div className={classes.form}>
       <h3>Envie uma mensagem para nós</h3>
-      <form
-        action="https://formsubmit.co/franco_sutter@yahoo.com.br"
-        method="POST"
-        onSubmit={formSubmitHandler}
-      >
+      <form method="POST" onSubmit={formSubmitHandler}>
         <input
           type="text"
           name="name"
@@ -56,6 +72,7 @@ function Formulario() {
         />
         <button type="submit">Enviar</button>
       </form>
+      {loading && <p>Estamos enviando a sua mensagem...</p>}
       {aviso && (
         <p>Mensagem enviada com sucesso! Iremos entrar em contato com você.</p>
       )}
