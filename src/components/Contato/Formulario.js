@@ -14,7 +14,7 @@ function Formulario() {
     setLoading(true);
 
     const data = await fetch(
-      "https://formsubmit.co/ajax/c6f394ac1484243155eebbe3687e91e1",
+      "https://formsubmit.co/ajax/victoriawerneradv@gmail.com",
       {
         method: "POST",
         headers: {

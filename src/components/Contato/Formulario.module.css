@@ -68,13 +68,38 @@
   font-family: var(--paragraph-font);
   background-color: var(--off-white);
   font-weight: 600;
+  line-height: 1.15rem;
   padding: 2rem;
   border-radius: 10px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 @media screen and (max-width: 850px) {
+  .form form {
+    width: 90%;
+  }
+
+  .form h3 {
+    width: 90%;
+  }
+
+  .form input,
+  .form textarea {
+    width: 95%;
+  }
 }
 
 @media screen and (max-width: 600px) {
+  .form form {
+    width: 90%;
+  }
+
+  .form h3 {
+    width: 85%;
+  }
+
+  .form p {
+    width: 90%;
+    text-align: center;
+  }
 }
