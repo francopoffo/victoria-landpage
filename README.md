@@ -1,6 +1,6 @@
 # About
 
-This is my first professional project. A landing page for a lawyer in Brazil.
+This is my first professional project. A landing page for a lawyer in Brazil. The main goal was to have the best performance and SEO.
 
 The project was made using several features from Next.js:
 
