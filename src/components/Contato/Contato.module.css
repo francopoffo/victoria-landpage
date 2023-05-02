@@ -72,6 +72,10 @@
     height: 400px;
   }
 
+  .enderecos {
+    width: 75%;
+  }
+
   .enderecos p {
     font-size: 1.15rem;
     font-weight: bold;

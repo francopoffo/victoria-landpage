@@ -7,10 +7,7 @@ import { BsTelephoneFill } from "react-icons/bs";
 function Contato() {
   return (
     <section className={classes.contato}>
-      <h2>
-        Atendemos presencialmente em toda a região de Balneário Camboriú e
-        Itajaí
-      </h2>
+      <h2>Atendemos presencialmente em Balneário Camboriú e Itajaí</h2>
       <div className={classes.infos}>
         <address className={classes.local}>
           <iframe
